@@ -1,0 +1,20 @@
+{
+  "name": "etf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "nodemon --exec ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@types/node": "12.12.11",
+    "axios": "0.21.1",
+    "date-fns": "2.16.1",
+    "ts-node": "8.5.2",
+    "typescript": "3.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.0"
+  },
+  "keywords": []
+}
